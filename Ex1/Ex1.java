@@ -11,16 +11,17 @@ public class Ex1
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
+		int A, B;
 		
 		System.out.println("Digite um número: ");
-		int A = sc.nextInt();
+		A = sc.nextInt();
 		
 		System.out.println("Digite um número: ");
-		int B = sc.nextInt();
+		B = sc.nextInt();
 		
 		if(A % B == 0)
-            System.out.println(A + " é divisível por " + B );
-        else
+                    System.out.println(A + " é divisível por " + B );
+        	else
 		    System.out.println(A + " não é divisível por " + B );
 
 		
