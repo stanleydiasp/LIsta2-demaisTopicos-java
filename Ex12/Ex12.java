@@ -38,7 +38,7 @@ public class Ex12
 	                 nota2 = sc.nextDouble();
 	            
 	                 if(nota2 > 10 || nota2 < 0) 
-	                    System.out.println("Erro! Digite novamente a primeira nota");
+	                    System.out.println("Erro! Digite novamente a segunda nota");
 	            } while (nota2 > 10 || nota2 < 0);
 	            
 	            
